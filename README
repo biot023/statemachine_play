@@ -10,7 +10,7 @@ EXAMPLE 2:
   irb -r "./statemachine_eg2.rb"
     $ vm.dollar
     $ vm.dollar
-    $ vm.selection "Peanuts"
+    $ vm.selection( "Peanuts" )
 
 EXAMPLE 3:
   irb -r "./statemachine_eg3.rb"
