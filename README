@@ -1,0 +1,27 @@
+EXAMPLE 1:
+  irb -r "./statemachine_eg1.rb"
+    $ puts vm.state
+    $ vm.dollar
+    $ puts vm.state
+    $ vm.selection
+    $ puts vm.state
+
+EXAMPLE 2:
+  irb -r "./statemachine_eg2.rb"
+    $ vm.dollar
+    $ vm.dollar
+    $ vm.selection "Peanuts"
+
+EXAMPLE 3:
+  irb -r "./statemachine_eg3.rb"
+    $ vm.coin( 25 )
+    $ vm.coin( 50 )
+    $ vm.coin( 25 )
+
+EXAMPLE 4:
+  irb -r "./statemachine_eg4.rb"
+    $ vm.repair
+    $ vm.operate
+    $ vm.dollar
+    $ vm.repair
+    $ vm.operate
